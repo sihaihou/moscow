@@ -1,0 +1,6 @@
+###EnableAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.reyco.cloud.moscow.registry.MoscowServiceRegistryAutoConfiguration,\
+com.reyco.cloud.moscow.discovery.MoscowServiceDiscoveryAutoConfiguration,\
+com.reyco.cloud.moscow.discovery.MoscowDiscoveryClientAutoConfiguration,\
+com.reyco.cloud.moscow.ribben.MoscowRibbonAutoConfiguration

@@ -1,0 +1,14 @@
+server:
+   port: 8001
+spring:
+   cloud:
+      moscow:
+         discovery: 
+            serverAddr: 127.0.0.1:8997
+            serviceName: orderProvider
+            
+logging:
+  path: d://
+  level:
+    root: info
+    com.reyco.order: debug

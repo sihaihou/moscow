@@ -1,0 +1,18 @@
+server:
+   port: 8011
+   Tomcat:
+     maxThreads: 200
+spring:
+   cloud:
+      moscow:
+         discovery: 
+            serverAddr: 127.0.0.1:8997
+            serviceName: orderService
+            
+logging:
+  file: /mnt/logs/order/order.log
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{55} [method=%method] %line - %msg%n"
+  level:
+    root: info
+    com.reyco.order: debug

@@ -1,0 +1,17 @@
+application:
+   version: v0.0.1
+server:
+  port: 8999
+  Servlet:
+    contextPath: /moscow
+moscow:
+   mode: stand-alone
+   
+
+logging:
+  file: /mnt/logs/moscow/moscow.log
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{55} [method=%method]%line %msg%n"
+  level:
+    root: info
+    com.reyco.moscow: debug

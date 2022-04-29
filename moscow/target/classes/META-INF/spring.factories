@@ -1,0 +1,3 @@
+# SpringApplicationRunListener
+org.springframework.boot.SpringApplicationRunListener=\
+com.reyco.moscow.core.listener.MoscowSpringApplicationRunnListener
