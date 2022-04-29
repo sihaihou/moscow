@@ -52,11 +52,11 @@ public class RestTemplateConfig {
 
 ### 第四步: 调用远程服务。       
 <pre>
-	@GetMapping
-	public Object test() throws MoscowException {
-		String result = restTemplate.getForObject("http://orderProvider/test", String.class);
-		return result;
-	}
+@GetMapping
+public Object test() throws MoscowException {
+	String result = restTemplate.getForObject("http://orderProvider/test", String.class);
+	return result;
+}
 </pre>
 # 文档
 所有最新和长期的通知也可以从Github 通知问题这里找到。
