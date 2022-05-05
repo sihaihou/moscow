@@ -25,7 +25,7 @@ spring:
    cloud:
       moscow:
          discovery: 
-            serverAddr: 127.0.0.1:8997
+            serverAddr: 127.0.0.1:8999
             serviceName: orderService
 </pre>
 
