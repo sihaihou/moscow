@@ -21,7 +21,7 @@
 &#60;/dependency&#62;
 </pre>
 
-### 第二步: 在application.yaml配置文件中配置moscow地址和微服务名称
+### 第二步: 在application.yaml配置文件中配置Moscow地址和微服务名称
 <pre>
 spring:
    cloud:
@@ -43,7 +43,7 @@ spring:
 &#60;/dependency&#62;
 </pre>
 
-### 第二步: 在application.yaml配置文件中配置moscow地址和微服务名称
+### 第二步: 在application.yaml配置文件中配置Moscow地址和微服务名称
 <pre>
 spring:
    cloud:
@@ -86,7 +86,7 @@ public Object test() throws MoscowException {
 所有最新和长期的通知也可以从Github 通知问题这里找到。
 
 # 贡献
-欢迎贡献者加入 moscow 项目。请联系18307200213@163.com 以了解如何为此项目做出贡献。 
+欢迎贡献者加入 Moscow 项目。请联系18307200213@163.com 以了解如何为此项目做出贡献。 
 
 
 
