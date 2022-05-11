@@ -27,7 +27,7 @@ spring:
    cloud:
       moscow:
          discovery: 
-            serverAddr: 192.168.1.107:8999,192.168.1.107:8999,192.168.1.107:8999
+            serverAddr: 192.168.1.107:8999,192.168.1.108:8999,192.168.1.109:8999
             serviceName: orderProvider
 </pre>
 
@@ -49,7 +49,7 @@ spring:
    cloud:
       moscow:
          discovery: 
-            serverAddr: 192.168.1.107:8999,192.168.1.107:8999,192.168.1.107:8999
+            serverAddr: 192.168.1.107:8999,192.168.1.108:8999,192.168.1.109:8999
             serviceName: orderService
 </pre>
 
