@@ -31,6 +31,19 @@ spring:
             serviceName: orderProvider
 </pre>
 
+### 第三步: 定义一个测试接口
+<pre>
+@RestController
+@RequestMapping("test")
+public class TestController {
+	
+	@GetMapping
+	public Object test() throws MoscowException {
+		return "192.168.1.137:8001";
+	}
+}
+</pre>
+
 
 ## 消费者orderService
 
