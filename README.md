@@ -8,6 +8,8 @@
   
 # 快速开始
   开始您的第一个项目非常容易。
+  
+## 提供者orderProvider
 
 ### 第一步: 引入依赖
       
@@ -25,7 +27,29 @@ spring:
    cloud:
       moscow:
          discovery: 
-            serverAddr: 127.0.0.1:8999
+            serverAddr: 192.168.1.107:8999,192.168.1.107:8999,192.168.1.107:8999
+            serviceName: orderProvider
+</pre>
+
+
+## 消费者orderService
+
+### 第一步: 引入依赖
+<pre>
+&#60;dependency&#62;
+   &#60;groupId&#62;com.reyco.moscow&#60;/groupId&#62;
+   &#60;artifactId&#62;moscow-discovery-spring-boot-starter&#60;/artifactId&#62;
+   &#60;version&#62;0.0.1-SNAPSHOT&#60;/version&#62;
+&#60;/dependency&#62;
+</pre>
+
+### 第二步: 在application.yaml配置文件中配置moscow地址和微服务名称
+<pre>
+spring:
+   cloud:
+      moscow:
+         discovery: 
+            serverAddr: 192.168.1.107:8999,192.168.1.107:8999,192.168.1.107:8999
             serviceName: orderService
 </pre>
 
