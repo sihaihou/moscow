@@ -39,7 +39,7 @@ public class TestController {
 	
 	@GetMapping
 	public Object test() throws MoscowException {
-		return "192.168.1.137:8001";
+		return "192.168.1.107:8001";
 	}
 }
 </pre>
